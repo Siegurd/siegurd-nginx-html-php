@@ -8,4 +8,4 @@ cd site-content
 
 docker-compose up --build
 
-Проверяем в браузере
+Проверяем в браузере (выставлен 666 порт)
