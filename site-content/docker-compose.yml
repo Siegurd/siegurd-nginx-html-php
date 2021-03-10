@@ -1,8 +1,15 @@
 version: '3'
 
 services:
+app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      image: php:7.2-fmp
+      container_name: site-content_php_1
   nginx:
     image: nginx:latest
+    container_name: site-content_nginx_1
     ports:
       - 666:80
     volumes:
