@@ -5,3 +5,5 @@
 Скачиваем репозиторий
 cd site-content
 docker-compose up --build
+
+Проверяем в браузере
