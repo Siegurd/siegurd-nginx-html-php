@@ -4,8 +4,8 @@
 
 Скачиваем репозиторий
 
-cd site-content
+cd hihihihi/
 
-docker-compose up --build
+docker build -t webserv-zi .
 
-Проверяем в браузере (выставлен 666 порт)
+Проверяем в браузере (http://localhost:8080/)
